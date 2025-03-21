@@ -7,7 +7,7 @@ pipeline {
         SSH_CONFIG_NAME = 'window_server'
         SRC_FILE = 'target/demo-0.0.1-SNAPSHOT.jar'
         RMV_PREF = 'target'
-        RMT_DIR = '/Users/SYCNS_CONFERENCE'
+        RMT_DIR = '/'
     }
     stages {
         stage('Profile Build') {
